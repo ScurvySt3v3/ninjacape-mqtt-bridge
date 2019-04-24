@@ -1,0 +1,10 @@
+[Unit]
+Description=Enable UART1
+After=syslog.target network.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/enable_uart1.sh
+
+[Install]
+WantedBy=multi-user.target
