@@ -8,9 +8,9 @@ I have write a Script for Perrin7´s ninja-mqtt-bridge and addet a activate star
 
 To install, Copy and Paste:
 
-wget https://raw.githubusercontent.com/ScurvySt3v3/ninjacape-mqtt-bridge/master/install_ninjaMQTT.sh                
-chmod +x install_ninjaMQTT.sh
-sudo ./install_ninjaMQTT.sh
+<br>wget https://raw.githubusercontent.com/ScurvySt3v3/ninjacape-mqtt-bridge/master/install_ninjaMQTT.sh</br>                
+<br>chmod +x install_ninjaMQTT.sh</br>
+<br>sudo ./install_ninjaMQTT.sh</br>
 
 
 
