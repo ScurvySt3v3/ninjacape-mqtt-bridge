@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #
-# used to interface the NinjaCape to openHAB via MQTT
+# used to interface the NinjaCape via MQTT
 # - reads data from serial port and publishes on MQTT client
 # - writes data to serial port from MQTT subscriptions
 #
@@ -17,7 +17,7 @@ import threading
 import time
 
 ### Settings
-serialdev = '/dev/ttyO1' # for BBB
+serialdev = '/dev/ttyS1' # for BBB
 # serialdev = '/dev/ttyAMA0' # for RPi
 
 broker = "127.0.0.1" # mqtt broker
