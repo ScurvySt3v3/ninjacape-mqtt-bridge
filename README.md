@@ -6,7 +6,7 @@ I have write a Script for Perrin7´s ninja-mqtt-bridge and addet a activate star
 
 You can also use the startup Script for Uart1 on BBW and BBB as stand alone for your own Projects
 
-<br><b><a href="https://github.com/perrin7/ninjacape-mqtt-bridge/wiki">See the wiki for more information</a></b>
+<br><b><a href="https://github.com/perrin7/ninjacape-mqtt-bridge/wiki">See perrin7´s  wiki for more information</a></b>
 
 <h3>MQTT messages are structured as follows:</h3>
 <ul>
