@@ -17,7 +17,7 @@ import threading
 import time
 
 ### Settings
-serialdev = '/dev/ttyS1' # for BBB
+serialdev = '/dev/ttyO1' # for BBB
 # serialdev = '/dev/ttyAMA0' # for RPi
 
 broker = "127.0.0.1" # mqtt broker
@@ -79,17 +79,17 @@ def serial_read_and_publish(ser, mqttc):
 			print "line to decode:",line
 		
 		# split the JSON packet up here and publish on MQTT
-            json_data = json.loads(line)
-            if(debug):
-                    print "json decoded:",json_data
+		json_data = json.loads(line)
+		if(debug):
+			print "json decoded:",json_data
 
-            try:
-                    device = str( json_data['DEVICE'][0]['D'] ) + str( json_data['DEVICE'][0]['G'] )
-                    data = str( json_data['DEVICE'][0]['DA'] )
-                    mqttc.publish("ninjaCape/input/"+device, data)
-            except(KeyError):
-                    # TODO should probably do something here if the data is malformed
-                    pass
+		try:
+			device = str( json_data['DEVICE'][0]['D'] ) + str( json_data['DEVICE'][0]['G'] )
+			data = str( json_data['DEVICE'][0]['DA'] )
+			mqttc.publish("ninjaCape/input/"+device, data)
+		except(KeyError):
+			# TODO should probably do something here if the data is malformed
+			pass
 
 ############ MAIN PROGRAM START
 try:
