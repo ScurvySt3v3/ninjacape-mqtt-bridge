@@ -84,7 +84,7 @@ def serial_read_and_publish(ser, mqttc):
 			print "json decoded:",json_data
 
 		try:
-			device = str( json_data['DEVICE'][0]['D'] ) + str( json_data['DEVICE'][0]['G'] )
+			device = str( json_data['DEVICE'][0]['D'] )
 			data = str( json_data['DEVICE'][0]['DA'] )
 			mqttc.publish("ninjaCape/input/"+device, data)
 		except(KeyError):
