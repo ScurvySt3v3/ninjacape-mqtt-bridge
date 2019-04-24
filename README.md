@@ -6,17 +6,22 @@ I have write a Script for Perrin7´s ninja-mqtt-bridge and addet a activate star
 
 
 
-To install, Copy and Paste:
 
-<br>wget https://raw.githubusercontent.com/ScurvySt3v3/ninjacape-mqtt-bridge/master/install_ninjaMQTT.sh</br>                
-<br>chmod +x install_ninjaMQTT.sh</br>
-<br>sudo ./install_ninjaMQTT.sh</br>
+               
+<br></br>
+<br></br>
 
+<h3>To install, Copy and Paste:</h3>
+<ul>
+<li>wget https://raw.githubusercontent.com/ScurvySt3v3/ninjacape-mqtt-bridge/master/install_ninjaMQTT.sh
+</li>
+<li>
+chmod +x install_ninjaMQTT.sh
+</li>
+<li>sudo ./install_ninjaMQTT.sh</li>
+</ul>
 
-
-
-
-You can also use the startup Script for Uart1 on BBW and BBB as standalone for your own Projects
+<br> You can also use the startup Script for Uart1 on BBW and BBB as standalone for your own Projects</br>
 
 <br><b><a href="https://github.com/perrin7/ninjacape-mqtt-bridge/wiki">See perrin7´s  wiki for more information</a></b>
 
