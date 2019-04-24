@@ -17,7 +17,7 @@ import threading
 import time
 
 ### Settings
-serialdev = '/dev/ttyO1' # for BBB
+serialdev = '/dev/ttyS1' # for BBB
 # serialdev = '/dev/ttyAMA0' # for RPi
 
 broker = "127.0.0.1" # mqtt broker
