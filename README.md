@@ -4,7 +4,19 @@
 
 I have write a Script for Perrin7´s ninja-mqtt-bridge and addet a activate startup Script for Uart1 on BBW and BBB
 
-You can also use the startup Script for Uart1 on BBW and BBB as stand alone for your own Projects
+
+
+To install, Copy and Paste:
+
+wget https://raw.githubusercontent.com/ScurvySt3v3/ninjacape-mqtt-bridge/master/install_ninjaMQTT.sh
+chmod +x install_ninjaMQTT.sh
+sudo ./install_ninjaMQTT.sh
+
+
+
+
+
+You can also use the startup Script for Uart1 on BBW and BBB as standalone for your own Projects
 
 <br><b><a href="https://github.com/perrin7/ninjacape-mqtt-bridge/wiki">See perrin7´s  wiki for more information</a></b>
 
